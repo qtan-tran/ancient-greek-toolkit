@@ -17,6 +17,7 @@
 - All 16 tool URLs HTTP-verified at the time of writing (Logeion, Perseus, Scaife, Theoi, Wiktionary, Wikisource, Diogenes, TypeGreek, Keyman, SIL Gentium, Anki, three PD copies of Smyth…).
 - Two-way cross-links with the Graecum VN portal (the portal's `toolkit.md` stub updated to point here).
 - GitHub Pages enabled and live: https://qtan-tran.github.io/ancient-greek-toolkit/ (verified HTTP 200).
+- Terminology page added (`terminology.html`): the standard English grammatical terms for Ancient Greek — writing system & sounds, nouns & article, verbs, syntax, plus a Greek-vs-Latin only-features table — each entry cross-referenced with the Vietnamese terminology of the portal (`terminology.html` there mirrors this page in Vietnamese); linked from the hub and `tools.json` (17 tools).
 
 ## Plans
 
@@ -24,7 +25,6 @@
 2. **Per-lesson quizzes:** if the portal grows standalone quizzes, add a "quizzes by lesson" category to the hub and `tools.json`.
 3. **Anki cross-links:** when part 6 of the portal roadmap ships the decks, update the Anki entry to link the decks directly.
 4. **Periodic link checks:** a manual checklist on every update (curl each URL); a small script if it ever becomes a chore — but the repository must never *require* a build.
-5. **Terminology page:** a short glossary aligning the project's English terms with the Vietnamese terms used in the Vietnamese lesson edition (Nom./Gen./Dat./Acc./Voc. ↔ chủ cách/sở hữu cách/tặng cách/đối cách/hô cách), since the sentence-analysis platform will also use standard English terms.
 
 ## Checklist for accepting a new tool (issue triage)
 

@@ -168,6 +168,15 @@
       "access": "internal",
       "desc": "Comparisons of reference grammars, introductory textbooks and lexica — with recommendations per level; link-only policy for copyrighted works.",
       "use_when": "You want to choose supplementary material beyond the lessons."
+    },
+    {
+      "id": "terminology",
+      "name": "Terminology (English glossary)",
+      "url": "terminology.html",
+      "category": "reference",
+      "access": "internal",
+      "desc": "Glossary of the standard English grammatical terms for Ancient Greek (writing system, nouns, verbs, syntax, Greek-vs-Latin contrasts), each entry cross-referenced with the Vietnamese terminology used in the Graecum VN lessons.",
+      "use_when": "You need the correct English search key for LSJ/Smyth, or the Vietnamese-English mapping of a grammatical term."
     }
   ]
 }

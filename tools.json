@@ -1,0 +1,173 @@
+{
+  "project": "Ancient Greek Toolkit",
+  "license": "CC BY-SA 4.0",
+  "tagline": "grill me with ancient greek — curated tools for learners of Ancient Greek",
+  "categories": [
+    {
+      "id": "lexica",
+      "name": "Lexica & morphology lookup"
+    },
+    {
+      "id": "texts",
+      "name": "Primary-text libraries"
+    },
+    {
+      "id": "typing",
+      "name": "Typing Greek & fonts"
+    },
+    {
+      "id": "practice",
+      "name": "Practice & review"
+    },
+    {
+      "id": "reference",
+      "name": "Reference grammar & resource comparisons"
+    }
+  ],
+  "tools": [
+    {
+      "id": "logeion",
+      "name": "Logeion",
+      "url": "https://logeion.uchicago.edu",
+      "category": "lexica",
+      "access": "free",
+      "desc": "A one-stop lookup portal: the LSJ, Middle Liddell, Pape, Slater lexica plus automatic morphology analysis for the word you look up.",
+      "use_when": "You need a word's full lexicographic entry (LSJ), or want several lexica side by side."
+    },
+    {
+      "id": "wiktionary-ag",
+      "name": "Wiktionary — Ancient Greek",
+      "url": "https://en.wiktionary.org/wiki/Category:Ancient_Greek_language",
+      "category": "lexica",
+      "access": "free",
+      "desc": "Quick glosses and declension tables edited by the community; good for getting the basic sense of a word.",
+      "use_when": "You want a fast first answer; cross-check against LSJ via Logeion, since entries are community-written."
+    },
+    {
+      "id": "diogenes",
+      "name": "Diogenes",
+      "url": "https://github.com/pjheslin/diogenes",
+      "category": "lexica",
+      "access": "free",
+      "desc": "Open-source desktop application that reads the LSJ and Slater lexica offline; works without a network connection (you supply the dictionary data files yourself).",
+      "use_when": "You want offline LSJ lookup at native speed, with Greek-text support."
+    },
+    {
+      "id": "perseus",
+      "name": "Perseus Digital Library (Tufts)",
+      "url": "https://www.perseus.tufts.edu/hopper/",
+      "category": "texts",
+      "access": "free",
+      "desc": "The oldest open digital library of Ancient Greek texts with English translations; includes a word study tool that parses each word.",
+      "use_when": "You want to read a text with translation and cite a passage by author and work."
+    },
+    {
+      "id": "scaife",
+      "name": "Scaife Viewer",
+      "url": "https://scaife.perseus.org/",
+      "category": "texts",
+      "access": "free",
+      "desc": "The modern interface to the Perseus 5.0 corpus: click a word to see its morphology, read a facing translation, and build vocabulary lists per passage.",
+      "use_when": "You want the smoothest reading experience with in-text morphology (recommended for beginners)."
+    },
+    {
+      "id": "theoi",
+      "name": "Theoi Classical Texts Library",
+      "url": "https://www.theoi.com/Library.html",
+      "category": "texts",
+      "access": "free",
+      "desc": "A library of Greek originals with English translations, organized by mythological figure and by author; public-domain sources.",
+      "use_when": "You are reading mythological texts or hunting a passage by character/author."
+    },
+    {
+      "id": "el-wikisource",
+      "name": "Greek Wikisource",
+      "url": "https://el.wikisource.org/",
+      "category": "texts",
+      "access": "free",
+      "desc": "Community-proofed transcriptions of Greek texts (ancient and modern), interface in Modern Greek.",
+      "use_when": "You need a transcription when Perseus/Scaife do not have the work."
+    },
+    {
+      "id": "typegreek",
+      "name": "TypeGreek",
+      "url": "https://www.typegreek.com/",
+      "category": "typing",
+      "access": "free",
+      "desc": "Type polytonic Greek on a Latin keyboard: type the letters, then press the accent/breathing keys to combine.",
+      "use_when": "You need to type a few words or sentences on a machine without a Greek keyboard."
+    },
+    {
+      "id": "keyman",
+      "name": "Keyman — Greek keyboards",
+      "url": "https://keyman.com/keyboards?q=greek",
+      "category": "typing",
+      "access": "free",
+      "desc": "Greek keyboard layouts (including fully polytonic ones) for Windows, macOS, Linux and mobile.",
+      "use_when": "You type Greek regularly, in any application. Tip: Windows and macOS both ship a built-in \"Greek Polytonic\" keyboard in the system language settings."
+    },
+    {
+      "id": "gentium",
+      "name": "Gentium Plus (SIL)",
+      "url": "https://software.sil.org/gentium/",
+      "category": "typing",
+      "access": "free",
+      "desc": "A free font with full polytonic Greek support (accents, breathings, iota subscript) that displays beautifully in lessons and texts.",
+      "use_when": "Greek renders poorly or without diacritics on your machine → install this font and set it as the default for Greek text."
+    },
+    {
+      "id": "graecum-portal",
+      "name": "Graecum VN lessons",
+      "url": "https://qtan-tran.github.io/graecum-vn/en/",
+      "category": "practice",
+      "access": "free",
+      "desc": "A complete 48-lesson course: every lesson has confusable-pairs tables, self-study exercises, and answer keys that appear only when printing (Ctrl+P → Save as PDF). Vietnamese main edition; English edition under way.",
+      "use_when": "You are following the roadmap; this toolkit is the gear you use alongside those lessons."
+    },
+    {
+      "id": "anki",
+      "name": "Anki",
+      "url": "https://apps.ankiweb.net/",
+      "category": "practice",
+      "access": "free",
+      "desc": "The reference-standard spaced-repetition program for vocabulary. Official Graecum VN decks will be released in the graecum-vn repository (roadmap part 6).",
+      "use_when": "You are drilling the ★ vocabulary of each lesson on a scientifically spaced schedule."
+    },
+    {
+      "id": "smyth-alpheios",
+      "name": "Smyth — A Greek Grammar for Colleges (1920)",
+      "url": "https://grammars.alpheios.net/smyth/xhtml/smyth.html",
+      "category": "reference",
+      "access": "free-pd",
+      "desc": "The standard reference grammar of Ancient Greek (Herbert Weir Smyth, public domain), in an easy-to-navigate electronic edition; ~1500 numbered sections.",
+      "use_when": "You need to research a grammar point beyond the scope of the lessons — use the index of subjects."
+    },
+    {
+      "id": "smyth-perseus",
+      "name": "Smyth on the Perseus Hopper",
+      "url": "https://www.perseus.tufts.edu/hopper/text?doc=Smyth+Grammar+1a",
+      "category": "reference",
+      "access": "free-pd",
+      "desc": "Smyth on Perseus: read by section number, cross-linked with the Perseus text library.",
+      "use_when": "You are reading on Perseus and want to consult the grammar without leaving the page."
+    },
+    {
+      "id": "smyth-archive",
+      "name": "Smyth 1920 — scanned copy",
+      "url": "https://archive.org/details/smyth-greek-grammar-for-colleges-1920",
+      "category": "reference",
+      "access": "free-pd",
+      "desc": "The original scan on the Internet Archive — a fallback whenever the electronic editions change address.",
+      "use_when": "You need the original PD text for scholarly citation."
+    },
+    {
+      "id": "comparisons",
+      "name": "Project resource comparison tables",
+      "url": "docs/COMPARISONS.md",
+      "category": "reference",
+      "access": "internal",
+      "desc": "Comparisons of reference grammars, introductory textbooks and lexica — with recommendations per level; link-only policy for copyrighted works.",
+      "use_when": "You want to choose supplementary material beyond the lessons."
+    }
+  ]
+}

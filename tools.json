@@ -1,7 +1,7 @@
 {
   "project": "Ancient Greek Toolkit",
   "license": "CC BY-SA 4.0",
-  "tagline": "grill me with ancient greek — curated tools for learners of Ancient Greek",
+  "tagline": "grill me with ancient greek – curated tools for learners of Ancient Greek",
   "categories": [
     {
       "id": "lexica",
@@ -36,7 +36,7 @@
     },
     {
       "id": "wiktionary-ag",
-      "name": "Wiktionary — Ancient Greek",
+      "name": "Wiktionary – Ancient Greek",
       "url": "https://en.wiktionary.org/wiki/Category:Ancient_Greek_language",
       "category": "lexica",
       "access": "free",
@@ -99,7 +99,7 @@
     },
     {
       "id": "keyman",
-      "name": "Keyman — Greek keyboards",
+      "name": "Keyman – Greek keyboards",
       "url": "https://keyman.com/keyboards?q=greek",
       "category": "typing",
       "access": "free",
@@ -135,12 +135,12 @@
     },
     {
       "id": "smyth-alpheios",
-      "name": "Smyth — A Greek Grammar for Colleges (1920)",
+      "name": "Smyth – A Greek Grammar for Colleges (1920)",
       "url": "https://grammars.alpheios.net/smyth/xhtml/smyth.html",
       "category": "reference",
       "access": "free-pd",
       "desc": "The standard reference grammar of Ancient Greek (Herbert Weir Smyth, public domain), in an easy-to-navigate electronic edition; ~1500 numbered sections.",
-      "use_when": "You need to research a grammar point beyond the scope of the lessons — use the index of subjects."
+      "use_when": "You need to research a grammar point beyond the scope of the lessons – use the index of subjects."
     },
     {
       "id": "smyth-perseus",
@@ -153,11 +153,11 @@
     },
     {
       "id": "smyth-archive",
-      "name": "Smyth 1920 — scanned copy",
+      "name": "Smyth 1920 – scanned copy",
       "url": "https://archive.org/details/smyth-greek-grammar-for-colleges-1920",
       "category": "reference",
       "access": "free-pd",
-      "desc": "The original scan on the Internet Archive — a fallback whenever the electronic editions change address.",
+      "desc": "The original scan on the Internet Archive – a fallback whenever the electronic editions change address.",
       "use_when": "You need the original PD text for scholarly citation."
     },
     {
@@ -166,7 +166,7 @@
       "url": "docs/COMPARISONS.md",
       "category": "reference",
       "access": "internal",
-      "desc": "Comparisons of reference grammars, introductory textbooks and lexica — with recommendations per level; link-only policy for copyrighted works.",
+      "desc": "Comparisons of reference grammars, introductory textbooks and lexica – with recommendations per level; link-only policy for copyrighted works.",
       "use_when": "You want to choose supplementary material beyond the lessons."
     },
     {

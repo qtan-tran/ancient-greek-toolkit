@@ -16,6 +16,7 @@
 - Repository initialized with: `README.md`, `LICENSE` (CC BY-SA 4.0 for content + MIT for code), `CONTRIBUTING.md`, `.gitignore`, `index.html` (hub, 5 categories), `tools.json` (16 tools), `docs/COMPARISONS.md` (resource comparisons v1), `docs/ROADMAP.md` (this file).
 - All 16 tool URLs HTTP-verified at the time of writing (Logeion, Perseus, Scaife, Theoi, Wiktionary, Wikisource, Diogenes, TypeGreek, Keyman, SIL Gentium, Anki, three PD copies of Smyth…).
 - Two-way cross-links with the Graecum VN portal (the portal's `toolkit.md` stub updated to point here).
+- GitHub Pages enabled and live: https://qtan-tran.github.io/ancient-greek-toolkit/ (verified HTTP 200).
 
 ## Plans
 

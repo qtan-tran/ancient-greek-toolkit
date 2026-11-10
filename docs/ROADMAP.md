@@ -19,6 +19,8 @@
 - GitHub Pages enabled and live: https://qtan-tran.github.io/ancient-greek-toolkit/ (verified HTTP 200).
 - Terminology page added (`terminology.html`): the standard English grammatical terms for Ancient Greek – writing system & sounds, nouns & article, verbs, syntax, plus a Greek-vs-Latin only-features table – each entry cross-referenced with the Vietnamese terminology of the portal (`terminology.html` there mirrors this page in Vietnamese); linked from the hub and `tools.json` (17 tools).
 
+- **Wiktionary entry enriched (owner request):** the lexica category already listed Wiktionary, but the entry undersold its killer feature for beginners – paste any inflected form (e.g. παιδεύεις) and the page parses it (2nd-person singular present active indicative of παιδεύω), links back to the lemma, and gives reconstructed IPA pronunciation. desc/use_when in `tools.json` and the hub row updated to lead with form-parsing + IPA; a `.gk` style rule added to the hub so inline Greek matches the portal. Still 17 tools; Wiktionary URL unchanged (already HTTP-verified).
+
 ## Plans
 
 1. **Smyth mapping:** a table mapping each Graecum VN lesson to the relevant Smyth index subjects (subjects via the index; no section numbers until each is verified).

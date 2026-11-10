@@ -40,8 +40,8 @@
       "url": "https://en.wiktionary.org/wiki/Category:Ancient_Greek_language",
       "category": "lexica",
       "access": "free",
-      "desc": "Quick glosses and declension tables edited by the community; good for getting the basic sense of a word.",
-      "use_when": "You want a fast first answer; cross-check against LSJ via Logeion, since entries are community-written."
+      "desc": "Community-edited dictionary with full morphological tagging: look up any inflected form and it parses it for you. Search παιδεύεις and the entry tells you it is the 2nd-person singular present active indicative of παιδεύω, links back to the lemma page, and shows reconstructed IPA pronunciation.",
+      "use_when": "You meet an inflected form and want an instant parse (person / number / tense / mood / voice) plus pronunciation; lemma pages also give full declension and conjugation tables and dialect labels. Community-written: cross-check senses against LSJ via Logeion."
     },
     {
       "id": "diogenes",

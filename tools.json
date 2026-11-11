@@ -22,6 +22,10 @@
     {
       "id": "reference",
       "name": "Reference grammar & resource comparisons"
+    },
+    {
+      "id": "youtube",
+      "name": "YouTube channels"
     }
   ],
   "tools": [
@@ -177,6 +181,51 @@
       "access": "internal",
       "desc": "Glossary of the standard English grammatical terms for Ancient Greek (writing system, nouns, verbs, syntax, Greek-vs-Latin contrasts), each entry cross-referenced with the Vietnamese terminology used in the Graecum VN lessons.",
       "use_when": "You need the correct English search key for LSJ/Smyth, or the Vietnamese-English mapping of a grammatical term."
+    },
+    {
+      "id": "learn-ancient-greek-latin",
+      "name": "Learn Ancient Greek and Latin (@LearnAncientGreek)",
+      "url": "https://www.youtube.com/@LearnAncientGreek",
+      "category": "youtube",
+      "access": "free",
+      "desc": "David Luchford's channel: 100+ sequential weekly lessons on Ancient Greek (and Latin) grammar, from declensions to clause syntax, in a plain, easy-to-follow lecturing style.",
+      "use_when": "You want a steady weekly video course to run alongside the Graecum VN path, or a grammar point re-explained out loud."
+    },
+    {
+      "id": "kosmos-muellner-greek",
+      "name": "Learn Ancient Greek – Kosmos Society (Leonard Muellner)",
+      "url": "https://www.youtube.com/playlist?list=PL9k6QuV8ez1psCKdu1rwTTzDr-S1A3KZO",
+      "category": "youtube",
+      "access": "free",
+      "desc": "A 120-video course by Leonard Muellner (Professor Emeritus of Classical Studies at Brandeis University) with Belisi Gillespie, covering two semesters of Ancient Greek – from the alphabet and accents to the optative; sponsored by the Center for Hellenic Studies.",
+      "use_when": "You want a university professor to walk you through each grammar unit, as in a real US classroom."
+    },
+    {
+      "id": "alpha-with-angela",
+      "name": "Alpha with Angela (Biblical Greek)",
+      "url": "https://www.youtube.com/@AlphawithAngela",
+      "category": "youtube",
+      "access": "free",
+      "desc": "A free Biblical (Koine) Greek course built on comprehensible input – the sister project of \"Aleph with Beth\" for Hebrew: 80+ story-based picture lessons, no textbook required; goal: reading the Greek New Testament (freegreek.online).",
+      "use_when": "You are working through the Koine & Biblical Greek block of Graecum II (lessons 32-34), or want to hear Greek used naturally and slowly."
+    },
+    {
+      "id": "scorpiomartianus",
+      "name": "ScorpioMartianus (Luke Ranieri)",
+      "url": "https://www.youtube.com/@ScorpioMartianus",
+      "category": "youtube",
+      "access": "free",
+      "desc": "Ancient Greek and Latin texts read aloud in restored pronunciation; the \"Ancient Greek in Action\" playlist teaches Greek through Greek itself; hundreds of hours of companion audio.",
+      "use_when": "You want to train your ear for the restored pronunciation and hear original texts read aloud."
+    },
+    {
+      "id": "under-the-fig-tree",
+      "name": "fig tree (@underthefigtreee)",
+      "url": "https://www.youtube.com/@underthefigtreee",
+      "category": "youtube",
+      "access": "free",
+      "desc": "An archaeologist (MA in Aegean Bronze Age Archaeology) tells the story of the ancient world in long-form videos: Dionysus in Euripides' Bacchae, Medea, Sophocles' Theban plays, Gilgamesh, the Hittites.",
+      "use_when": "You want to see the texts you are studying alive in their cultural and religious context – storytelling, not grammar."
     }
   ]
 }

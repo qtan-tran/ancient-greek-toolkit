@@ -9,7 +9,7 @@
 3. For copyrighted resources: **link-only reviews**, no hosting, no quotation of contents.
 4. The hub is **self-contained static HTML** (no build step, no required JavaScript) – opens in any browser, works offline.
 5. Every entry in `tools.json` must answer "use it when…" – the hub is advisory, not just a directory.
-6. **Language: English only**, with standard grammatical terminology – the audience is global, and tools (unlike lessons) serve readers who need stable, searchable terms.
+6. **Language: bilingual (since 2026-11)** – a Vietnamese homepage at the repository root plus a full English edition under `en/`, cross-linked both ways. Standard grammatical terminology is kept in the English edition, which remains the reference copy: the audience is global, and tools (unlike lessons) serve readers who need stable, searchable terms.
 
 ## Done (v0.1 – initial release)
 
@@ -20,6 +20,8 @@
 - Terminology page added (`terminology.html`): the standard English grammatical terms for Ancient Greek – writing system & sounds, nouns & article, verbs, syntax, plus a Greek-vs-Latin only-features table – each entry cross-referenced with the Vietnamese terminology of the portal (`terminology.html` there mirrors this page in Vietnamese); linked from the hub and `tools.json` (17 tools).
 
 - **Wiktionary entry enriched (owner request):** the lexica category already listed Wiktionary, but the entry undersold its killer feature for beginners – paste any inflected form (e.g. παιδεύεις) and the page parses it (2nd-person singular present active indicative of παιδεύω), links back to the lemma, and gives reconstructed IPA pronunciation. desc/use_when in `tools.json` and the hub row updated to lead with form-parsing + IPA; a `.gk` style rule added to the hub so inline Greek matches the portal. Still 17 tools; Wiktionary URL unchanged (already HTTP-verified).
+
+- **Vietnamese homepage + English edition (owner request, 2026-11):** the hub homepage at the repository root is now in Vietnamese (`index.html`), with the English edition moved to a full mirror at `en/index.html`; both pages cross-link to each other. A **YouTube category** was added (6 categories, 22 tools): @LearnAncientGreek (David Luchford), the Kosmos Society "Learn Ancient Greek" course by Leonard Muellner (Brandeis), Alpha with Angela (Koine comprehensible input), ScorpioMartianus (restored-pronunciation readings), and fig tree @underthefigtreee (culture & mythology long-forms); all five channel URLs HTTP-verified at the time of writing.
 
 ## Plans
 

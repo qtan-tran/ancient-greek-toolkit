@@ -8,18 +8,20 @@ This repository is developed and maintained by **Quoc-Tan Tran**, **Postdoctoral
 
 ## Why a separate repository?
 
-Per the three-repository architecture of Graecum VN ([ADR](https://github.com/qtan-tran/graecum-vn/blob/main/docs/ARCHITECTURE.md)): educational content (the portal) changes at the pace of lesson writing; **curated links (this toolkit) change at the pace of the outside world** – dead links, new tools, resource comparisons. Splitting keeps the "slow" portal from being dragged along by the "fast" toolkit, and vice versa. The toolkit is in **English** because it targets a global audience: tools need standard, searchable terminology, and structure flows more naturally in English than in any single local language.
+Per the three-repository architecture of Graecum VN ([ADR](https://github.com/qtan-tran/graecum-vn/blob/main/docs/ARCHITECTURE.md)): educational content (the portal) changes at the pace of lesson writing; **curated links (this toolkit) change at the pace of the outside world** – dead links, new tools, resource comparisons. Splitting keeps the "slow" portal from being dragged along by the "fast" toolkit, and vice versa. Since 2026-11 the toolkit is **bilingual**: the homepage at the repository root is in **Vietnamese**, with a full **English edition** at [`en/`](https://qtan-tran.github.io/ancient-greek-toolkit/en/). The English edition remains the reference copy for a global audience: tools need standard, searchable terminology (LSJ lemma, TLG abbreviation, Unicode keycap), and structure flows more naturally in English than in any single local language. The Vietnamese homepage mirrors it 1:1 so Vietnamese learners can navigate the same gears in their own language; both pages cross-link to each other.
 
 ## Where to start
 
-- **Just use it:** open [`index.html`](https://qtan-tran.github.io/ancient-greek-toolkit/) – the hub has five categories: lexica & morphology · primary-text libraries · typing & fonts · practice · reference grammar.
+- **Just use it:** open the hub at **https://qtan-tran.github.io/ancient-greek-toolkit/** (Vietnamese homepage) or the [English edition](https://qtan-tran.github.io/ancient-greek-toolkit/en/). The hub has six categories: lexica & morphology · primary-text libraries · typing & fonts · practice · reference grammar · YouTube channels.
 - **Choose supplementary material:** [`docs/COMPARISONS.md`](docs/COMPARISONS.md) – comparisons of reference grammars (public-domain Smyth), introductory textbooks, and lexica.
 - **Follow the roadmap:** the [Graecum VN portal](https://qtan-tran.github.io/graecum-vn/en/) – a complete 48-lesson course (Vietnamese main edition, English edition under way). This toolkit is the gear used alongside those lessons.
 
 ## Repository layout
 
 ```
-├── index.html              # Hub portal (GitHub Pages) – start here
+├── index.html              # Hub portal (GitHub Pages) – Vietnamese homepage, start here
+├── en/
+│   └── index.html          # English edition of the hub
 ├── tools.json              # Meta index: id, url, category, "use it when…"
 ├── docs/
 │   ├── COMPARISONS.md      # Resource comparisons (link-only policy for copyrighted works)

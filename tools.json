@@ -129,6 +129,15 @@
       "use_when": "You are following the roadmap; this toolkit is the gear you use alongside those lessons."
     },
     {
+      "id": "satzanalyse-vn",
+      "name": "Satzanalyse VN",
+      "url": "https://qtan-tran.github.io/satzanalyse-vn/",
+      "category": "practice",
+      "access": "free",
+      "desc": "The project's own sentence-analysis workbench: paste any Ancient Greek text (up to 1,500 characters) and get a pre-filled Satzanalyse frame (HTML + LaTeX) with an 800-entry dictionary and morphological hints for lessons 1–10, plus a corpus of 10 fully worked model sentences (L1–10, including John 1:1).",
+      "use_when": "You want to parse a sentence yourself (functions, forms, word blocks) and check your analysis against a worked model frame."
+    },
+    {
       "id": "anki",
       "name": "Anki",
       "url": "https://apps.ankiweb.net/",

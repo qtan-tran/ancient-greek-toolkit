@@ -23,6 +23,8 @@
 
 - **Vietnamese homepage + English edition (owner request, 2026-11):** the hub homepage at the repository root is now in Vietnamese (`index.html`), with the English edition moved to a full mirror at `en/index.html`; both pages cross-link to each other. A **YouTube category** was added (6 categories, 22 tools): @LearnAncientGreek (David Luchford), the Kosmos Society "Learn Ancient Greek" course by Leonard Muellner (Brandeis), Alpha with Angela (Koine comprehensible input), ScorpioMartianus (restored-pronunciation readings), and fig tree @underthefigtreee (culture & mythology long-forms); all five channel URLs HTTP-verified at the time of writing.
 
+- **Satzanalyse VN added to Practice & review (2026-11):** the project's own sentence-analysis platform (live on GitHub Pages, HTTP-verified 200) now has a row in the Practice & review category of both editions (`index.html` + `en/index.html`) and an entry in `tools.json` (23 tools). Two-way cross-links: the hub links to the platform, and the platform's site links back to the hub and the portal. The Anki row's deck pointer was refreshed while editing the table (blocks 1–20 published).
+
 ## Plans
 
 1. **Smyth mapping:** a table mapping each Graecum VN lesson to the relevant Smyth index subjects (subjects via the index; no section numbers until each is verified).
